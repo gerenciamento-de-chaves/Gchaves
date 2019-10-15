@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>cadastrar aluno</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="collapse navbar-collapse">
+        <li class="navbar-item text-warning"><a href="/" class="nav-link">Cadastro</a></li>
+        <li class="navbar-item text-warning"><a href="/lista" class="nav-link">Turma</a></li></div>
+    </nav>
+    <div class="container">
+      
+
+
+        <form method="post" accept-charset="utf-8" action="/" class="form-modal form-login">
+               <h2>GERENCIAMENTO DE CHAVES PJBL</h2>
+            <label for="inputNumero">Numero</label>
+            <input type="text" id="inputNumero" class="form-control" placeholder="Digite o numero da chave" name="numero" requirid autofocus>
+
+            <label for="inputNome">Nome</label>
+            <input type="text" name="nome" id="inputNome" class="form-control" placeholder="Digite o nome" required>
+
+
+            <label for="selectTurma">Turma
+            <select type="type" id="selectTurma" class="form-control" name="turma">
+                <option selected>Selecione</option> 
+                <option value="1º Admnistração">1º ADM</option>
+                <option value="2º Agropecuaria">1º AGRO</option>
+                <option value="1º Finanças">1º FIN</option>
+                <option value="2º Informática">1º INFO</option>
+                <option value="3º Administração">2º ADM</option>
+                <option value="2º Agropecuaria">2º AGRO</option>
+                <option value="2º Finanças">2º FIN</option>
+                <option value="2º Informatica">2º INFO</option>
+            </select>
+            </label>
+
+            <button type="submit" class="btn btn-lg btn-success btn-block">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
