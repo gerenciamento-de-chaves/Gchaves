@@ -1,0 +1,26 @@
+body{
+    padding-bottom: 40px;
+    background-color: #f8f8f8;
+}
+
+.form-login{
+    
+    max-width: 50em;
+    margin: 3em auto;
+    background-color: #f9f9f9;
+    padding: 90px;
+}
+
+.navbar-item{
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.form-modal{
+	background: #fff !important;
+	margin: 0 auto;
+}
+
+.table a{
+	margin: 3px;
+}
